@@ -2,7 +2,7 @@
 use App\Model\ContainerModel;
 
 //
-$app->group('/container', function () {
+$app->group('/containers', function () {
 //funciona.
     $this->get('/{id}', function ($req, $res, $args) {
         $um = new ContainerModel();

@@ -142,7 +142,7 @@ class ToolModel
                     "simbolo"=>$this->response->result->simbolo
                 );
 
-                unset($this->response->result->nombre);
+              /*  unset($this->response->result->nombre);*/
                 unset($this->response->result->umd);
                 unset($this->response->result->nmd);
                 unset($this->response->result->simbolo);
